@@ -49,7 +49,7 @@
   border-radius: 5px;
 }
 .mainpage_menu :hover {
-  color: #cc0000;
+  text-decoration: underline;
 }
 
 .mainpage_h1 {
@@ -206,9 +206,8 @@
   border-radius: 50px;
   padding: 20px;
 }
-.certificate_1 a:hover {
-  transition: .2s;
-  font-size: 1.6em;
+.certificate_1 a :hover {
+  font-size: 1.5em;
   font-weight: bold;
 }
 
