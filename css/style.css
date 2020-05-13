@@ -29,7 +29,7 @@
 
 .mainpage {
   height: 700px;
-  background-image: url("img/burger.jpg");
+  background-image: url("img/burger.jpg"); 
   background-size: cover;
 }
 
