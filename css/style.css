@@ -29,7 +29,7 @@
 
 .mainpage {
   height: 700px;
-  background-image: url(img/burger.jpg);
+  background-image: url("/img/burger.jpg");
   background-size: cover;
 }
 
@@ -181,7 +181,7 @@
 
 .certificate {
   height: 700px;
-  background-image: url(img/gift.jpg);
+  background-image: url("/img/gift.jpg");
   background-size: cover;
   text-align: center;
 }
