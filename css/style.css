@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+.cities {
+  display: flex;
+  justify-content: center;
+  background-color: #3b3b3b;
+  color: black;
+  height: 30px;
+}
+.cities a {
+  align-self: center;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.cities :hover {
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s linear;
+}
+
+.mainpage {
+  height: 700px;
+  background-image: url(/img/burger.jpg);
+  background-size: cover;
+}
+
+.mainpage_menu {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgba(53, 53, 53, 0.575);
+}
+.mainpage_menu a {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: white;
+  text-shadow: black 0 0 2px;
+  padding: 8px;
+  border-radius: 5px;
+}
+.mainpage_menu :hover {
+  color: #cc0000;
+}
+
+.mainpage_h1 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+}
+.mainpage_h1 h1 {
+  font-size: 2.1em;
+  text-align: center;
+  color: whitesmoke;
+}
+.mainpage_h1 p {
+  margin-top: 30px;
+  align-self: center;
+  text-align: center;
+  width: 70%;
+  color: whitesmoke;
+  font-size: 1.3em;
+  line-height: 1.8em;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.mainpage_h1 a {
+  align-self: center;
+  background-color: red;
+  padding: 10px;
+  border-radius: 15px;
+  color: black;
+  text-shadow: none;
+}
+
+.description {
+  background-color: white;
+  background-size: cover;
+}
+
+.description_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.description_text h3, .description_text p {
+  margin: 0.5em;
+  margin-right: 190px;
+  margin-left: 190px;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+.description_text h2 {
+  margin: 50px;
+}
+
+.cards__item {
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.cards__item .items {
+  margin: 20px;
+  padding: 30px;
+  background-color: #35a6a8;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 25%;
+  box-shadow: 1px 27px 29px -20px black;
+}
+.cards__item .items p {
+  margin-top: 15px;
+  line-height: 20px;
+}
+.cards__item .items h3 {
+  margin-bottom: 15px;
+}
+
+.holidays {
+  background-color: white;
+  color: white;
+}
+.holidays h2 {
+  padding: 20px;
+  text-align: center;
+}
+
+.photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.items_p {
+  margin-top: 5px;
+  justify-self: center;
+}
+.items_p img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  box-shadow: 1px 27px 84px 6px black;
+}
+
+.about {
+  height: 400px;
+  text-align: center;
+}
+
+.about__head {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.about__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2em;
+}
+.about__body p {
+  margin-top: 1em;
+}
+.about__body .body_item {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-bottom: 50px;
+}
+
+.certificate {
+  height: 700px;
+  background-image: url(/img/gift.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.certificate_1 {
+  padding: 7em;
+  color: blanchedalmond;
+}
+.certificate_1 h2 {
+  margin-top: 1em;
+  line-height: 2em;
+}
+.certificate_1 h1 {
+  margin-top: 1em;
+  font-size: 5em;
+  margin-bottom: 1em;
+}
+.certificate_1 a {
+  font-size: 1.5em;
+  background-color: #2D8B8D;
+  color: black;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.map {
+  height: 350px;
+}
+
+.main_contacts {
+  height: 450px;
+  background-color: #ffffff;
+}
+.main_contacts h5 {
+  text-align: center;
+  padding: 30px;
+  font-size: 3em;
+}
+
+.contacts {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+hr {
+  margin-top: 10px;
+  width: 50px;
+  height: 2px;
+  color: black;
+}
+
+.cont_block_ {
+  padding: 3em;
+}
+.cont_block_ p {
+  margin-top: 1em;
+}
+
+.cont_block_4 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
