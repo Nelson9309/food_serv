@@ -79,7 +79,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-  .header_body {
+  body.lock .header_body {
     height: 60px;
   }
 
