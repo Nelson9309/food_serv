@@ -39,7 +39,7 @@ a {
   position: relative;
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 60px;
   align-items: center;
 }
 
@@ -103,6 +103,12 @@ a {
     transition: all 0.3s ease 0s;
   }
 
+  .header_logo img {
+    max-width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+  }
+
   .header_burger:before {
     top: 0;
   }
@@ -143,7 +149,7 @@ a {
     height: 100%;
     padding: 70px 0 0 0;
     transition: all 0.5s ease 0s;
-    background-color: rgba(0, 0, 0, 0.897);
+    background-color: rgba(0, 0, 0, 0.753);
   }
 
   .header_menu.active {
