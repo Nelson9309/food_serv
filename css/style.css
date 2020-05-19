@@ -416,6 +416,11 @@ p {
   height: 350px;
 }
 
+@media screen and (max-width: 767px) {
+  .map {
+    display: none;
+  }
+}
 .main_contacts {
   background-color: #ffffff;
 }
