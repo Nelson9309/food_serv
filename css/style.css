@@ -85,7 +85,7 @@ a {
   }
 
   .header_body {
-    height: 50px;
+    height: 30px;
   }
 
   .header_burger {
@@ -147,7 +147,7 @@ a {
     width: 100%;
     height: 100%;
     overflow: auto;
-    padding: 70px 0 0 0;
+    padding: 60px 0 0 0;
     transition: all 0.5s ease 0s;
     background-color: rgba(0, 0, 0, 0.801);
     text-align: center;
@@ -194,15 +194,13 @@ a {
   color: whitesmoke;
 }
 .mainpage_h1 p {
-  margin-top: 30px;
+  margin-top: 17px;
   align-self: center;
   text-align: center;
-  width: 70%;
+  width: 60%;
   color: whitesmoke;
   font-size: 18px;
   line-height: 30px;
-  margin-left: 150px;
-  margin-right: 150px;
 }
 .mainpage_h1 a {
   align-self: center;
@@ -215,6 +213,7 @@ a {
   border-radius: 9px;
   font-weight: 400;
   font-size: 20px;
+  font-weight: 500;
 }
 .mainpage_h1 a:hover {
   transform: scale(1.2);
@@ -222,7 +221,15 @@ a {
 }
 @media screen and (max-width: 767px) {
   .mainpage_h1 h1 {
-    font-size: 19px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  .mainpage_h1 p {
+    width: 95%;
+  }
+  .mainpage_h1 a {
+    font-weight: bold;
   }
 }
 
@@ -258,7 +265,7 @@ a {
 
 .cards__item {
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -283,6 +290,7 @@ a {
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr;
+    margin-top: 10px;
   }
 
   .items {
@@ -397,6 +405,10 @@ a {
 h1,
 p {
     font-weight: normal;
+    font-size: 16px;
+  }
+
+  .certificate_1 a {
     font-size: 18px;
   }
 }
