@@ -537,10 +537,34 @@ hr {
 /* Слайд основной */
 /* Слайд по центру */
 /* Стрелка */
+.slick-arrow {
+  border: 0;
+}
+
 /* Стрелка влево */
+.slick-arrow.slick-prev {
+  border: 0;
+}
+
 /* Стрелка вправо */
+.slick-arrow.slick-next {
+  border: 0;
+}
+
 /* Стрелка не активная */
 /* Точки */
+.slick-dots {
+  border: 0;
+}
+
+.slick-dots li {
+  border: 0;
+}
+
+.slick-dots button {
+  border: 0;
+}
+
 /* Конкретный слайдер */
 .slider {
   position: relative;
