@@ -649,16 +649,19 @@ hr {
 
 .form {
   position: relative;
-  bottom: 350px;
+  bottom: 345px;
   left: 1010px;
   width: 300px;
   padding: 10px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.527);
+  background-color: rgba(0, 0, 0, 0.767);
+}
+.form h4 {
+  color: white;
 }
 
 input {
-  background-color: #cfcfcfe7;
+  background-color: #ffffffe7;
   padding: 10px;
   width: 280px;
   height: 35px;
@@ -670,6 +673,7 @@ button {
   width: 300px;
   height: 30px;
   margin: 15px auto;
-  background-color: gray;
+  background-color: #03767B;
   border-radius: 5px;
+  border: none;
 }
