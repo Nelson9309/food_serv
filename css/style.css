@@ -147,7 +147,7 @@ a {
     overflow: auto;
     padding: 60px 0 0 0;
     transition: all 0.5s ease 0s;
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgba(0, 0, 0, 0.945);
     text-align: center;
   }
 
@@ -160,8 +160,12 @@ a {
   }
 
   .header_list li {
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 20px;
+    margin: 0 40px 10px 0;
+    text-align: end;
+  }
+  .header_list li:before {
+    content: url(../img/sl-arrow_r.svg);
   }
 
   .header_link {
