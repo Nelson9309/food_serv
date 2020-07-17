@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,regular,500,600,700);
 * {
   padding: 0;
   margin: 0;
@@ -88,10 +88,10 @@ a {
 
   .header_burger {
     display: block;
-    position: relative;
+    position: fixed;
+    right: 20px;
     width: 30px;
     height: 20px;
-    position: relative;
     z-index: 5;
   }
 
@@ -147,7 +147,7 @@ a {
     overflow: auto;
     padding: 60px 0 0 0;
     transition: all 0.5s ease 0s;
-    background-color: rgba(0, 0, 0, 0.945);
+    background-color: rgba(0, 0, 0, 0.95);
     text-align: center;
   }
 
@@ -268,7 +268,6 @@ a {
 
 .cards__item {
   padding: 20px;
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -293,11 +292,10 @@ a {
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr;
-    margin-top: 10px;
   }
 
   .items {
-    width: 200px;
+    width: 220px;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) {
@@ -652,25 +650,31 @@ hr {
   margin: 20px;
 }
 
+.bg__form {
+  background-image: url(../img/bg_form.jpg);
+  background-size: cover;
+  height: 450px;
+}
+
 .form {
   position: relative;
-  bottom: 345px;
-  left: 1010px;
+  top: 50px;
+  left: 100px;
   width: 300px;
   padding: 10px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.767);
 }
 .form h4 {
   color: white;
 }
 
 input {
-  background-color: #ffffffe7;
+  background-color: #ffffffe5;
   padding: 10px;
   width: 280px;
   height: 35px;
   border: none;
+  border-radius: 5px;
   margin-top: 10px;
 }
 
